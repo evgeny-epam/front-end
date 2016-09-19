@@ -66,12 +66,14 @@ public class ScreenTest extends WebDriverController{
         openUrlInApp(urlDigitalLibrary);
         //windowSetSize(1600,900);
         addCookie("RS.LOCATION", "2519ca7b-4a4c-4f9d-908f-c2c755598618");
-		type(FIELD_LOGIN, "pivaniushyn@copyright.com");
+        addCookie("RS.ORGANIZATION", "2308baba-38f8-461c-a6a0-ab00ff3215c6");
+		type(FIELD_LOGIN, "dsherstniuk@copyright.com");
 		type(FIELD_PASSWORD, "123456");
 		submit(FIELD_PASSWORD);
 		waitForPageLoaded();
         setItemInSessionStorage("isTooltipWasClosed", "yes");
         addCookie("RS.LOCATION", "2519ca7b-4a4c-4f9d-908f-c2c755598618");
+        addCookie("RS.ORGANIZATION", "2308baba-38f8-461c-a6a0-ab00ff3215c6");
     }
 
 	@Test
