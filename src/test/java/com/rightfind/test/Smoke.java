@@ -23,13 +23,13 @@ public class Smoke extends WebDriverController{
     public void login(){
         openUrlInApp(urlDigitalLibrary);
         //windowSetSize(1600,900);
-        addCookie("RS.LOCATION", "2519ca7b-4a4c-4f9d-908f-c2c755598618");
-		type(FIELD_LOGIN, "pivaniushyn@copyright.com");
-		type(FIELD_PASSWORD, "123456");
+        addCookie("RS.LOCATION", "test");
+		type(FIELD_LOGIN, "test");
+		type(FIELD_PASSWORD, "test");
 		submit(FIELD_PASSWORD);
 		waitForPageLoaded();
         setItemInSessionStorage("isTooltipWasClosed", "yes");
-        addCookie("RS.LOCATION", "2519ca7b-4a4c-4f9d-908f-c2c755598618");
+        addCookie("RS.LOCATION", "test");
     }
     
     @Test
