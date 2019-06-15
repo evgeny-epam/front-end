@@ -56,8 +56,6 @@ In the config file or via Jenkins job we can set desired configurations for the 
 All browsers will be on in full-screen mode (if other not specified in the config file)
 
 Technologies: Java, Selenide, aShot, Chromedriver
-The code of the POC of such tool you can find in my repo in GitHub 
-https://github.com/evgeny-epam/front-end 
 
 
 
